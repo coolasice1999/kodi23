@@ -6,6 +6,7 @@ RUN \
  apt-get update && \
  apt-get install -y \
 	--no-install-recommends \
+	cron \
 	autoconf \
 	automake \
 	autopoint \
@@ -162,6 +163,7 @@ RUN \
  apt-get install -y \
 	--no-install-recommends \
 	samba-common-bin \
+	cron \
 	libass9 \
 	libbluray2 \
 	libegl1 \
